@@ -21,24 +21,24 @@ const HeroSection = () => {
           className="animate-fade-rise text-5xl sm:text-7xl md:text-8xl leading-[0.95] tracking-[-2.46px] max-w-7xl font-normal text-foreground"
           style={{ fontFamily: "var(--font-display)" }}
         >
-          Where <em className="not-italic text-muted-foreground">dreams</em>{" "}
-          rise{" "}
+          Where <em className="not-italic text-muted-foreground">final year projects</em>{" "}
+          find{" "}
           <em className="not-italic text-muted-foreground">
-            through the silence.
+            their rhythm.
           </em>
         </h1>
 
         <p className="animate-fade-rise-delay text-muted-foreground text-base sm:text-lg max-w-2xl mt-8 leading-relaxed">
-          We're designing tools for deep thinkers, bold creators, and quiet
-          rebels. Amid the chaos, we build digital spaces for sharp focus and
-          inspired work.
+          A calm, intelligent workspace for supervisors to track student groups,
+          monitor milestones, and let AI craft the perfect FYP timeline — so every
+          project ships on time, with clarity.
         </p>
 
         <a
           href="#about"
           className="animate-fade-rise-delay-2 liquid-glass rounded-full px-14 py-5 text-base text-foreground mt-12 transition-transform hover:scale-[1.03] cursor-pointer inline-block"
         >
-          Begin Journey
+          Explore the Tracker
         </a>
       </div>
     </section>

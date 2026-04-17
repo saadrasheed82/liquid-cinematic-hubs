@@ -3,10 +3,10 @@ import { Menu, X } from "lucide-react";
 
 const navLinks = [
   { label: "Home", href: "#hero" },
-  { label: "Studio", href: "#about" },
-  { label: "About", href: "#services" },
-  { label: "Journal", href: "#work" },
-  { label: "Reach Us", href: "#contact" },
+  { label: "Overview", href: "#about" },
+  { label: "Features", href: "#services" },
+  { label: "AI Timeline", href: "#work" },
+  { label: "Contact", href: "#contact" },
 ];
 
 const Navbar = () => {
@@ -20,7 +20,7 @@ const Navbar = () => {
           className="text-3xl tracking-tight text-foreground"
           style={{ fontFamily: "var(--font-display)" }}
         >
-          Velorah<sup className="text-xs">®</sup>
+          ProjectPilot<sup className="text-xs">®</sup>
         </a>
 
         <div className="hidden md:flex items-center gap-8">
@@ -40,7 +40,7 @@ const Navbar = () => {
             href="#contact"
             className="hidden sm:inline-flex liquid-glass rounded-full px-6 py-2.5 text-sm text-foreground transition-transform hover:scale-[1.03] cursor-pointer"
           >
-            Begin Journey
+            Teacher Login
           </a>
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
@@ -70,7 +70,7 @@ const Navbar = () => {
             onClick={() => setMobileOpen(false)}
             className="liquid-glass rounded-full px-6 py-2.5 text-sm text-foreground text-center mt-2"
           >
-            Begin Journey
+            Teacher Login
           </a>
         </div>
       )}
