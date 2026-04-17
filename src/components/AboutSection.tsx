@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
 
 const stats = [
-  { value: "12+", label: "Years of Craft" },
-  { value: "200+", label: "Projects Delivered" },
-  { value: "40+", label: "Global Clients" },
-  { value: "∞", label: "Curiosity" },
+  { value: "120+", label: "Active FYP Groups" },
+  { value: "38", label: "Supervisors" },
+  { value: "94%", label: "On-time Delivery" },
+  { value: "AI", label: "Powered Planning" },
 ];
 
 const AboutSection = () => {
@@ -19,16 +19,16 @@ const AboutSection = () => {
             transition={{ duration: 0.7 }}
           >
             <p className="text-sm text-muted-foreground tracking-widest uppercase mb-4">
-              About us
+              Overview
             </p>
             <h2
               className="text-4xl sm:text-5xl md:text-6xl leading-[1.05] tracking-tight text-foreground"
               style={{ fontFamily: "var(--font-display)" }}
             >
-              We create at the
+              Supervise every group
               <br />
               <em className="not-italic text-muted-foreground">
-                edge of silence
+                with quiet clarity
               </em>
             </h2>
           </motion.div>
@@ -41,20 +41,18 @@ const AboutSection = () => {
             className="flex flex-col gap-6"
           >
             <p className="text-muted-foreground text-base sm:text-lg leading-relaxed">
-              Velorah is a creative studio born from the belief that meaningful
-              design happens in stillness. We partner with visionaries who
-              refuse to compromise — building brands, digital products, and
-              experiences that resonate long after the first glance.
+              ProjectPilot is a final year project tracker built for university
+              supervisors. See every group's progress, proposals, and deadlines
+              from a single, focused dashboard — without the spreadsheets.
             </p>
             <p className="text-muted-foreground text-base sm:text-lg leading-relaxed">
-              Our process is deliberate, our craft obsessive. Every pixel,
-              every word, every interaction is considered. We don't chase
-              trends. We set intention.
+              An onboard AI reads each project's scope and crafts a realistic
+              timeline of tasks, then nudges students with gentle, personalised
+              recommendations to keep them shipping on schedule.
             </p>
           </motion.div>
         </div>
 
-        {/* Stats */}
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
