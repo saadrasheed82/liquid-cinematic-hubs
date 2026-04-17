@@ -3,21 +3,21 @@ import { motion } from "framer-motion";
 const testimonials = [
   {
     quote:
-      "Velorah didn't just build our brand — they gave it a soul. Every detail felt like it was breathing.",
-    author: "Maren Soleil",
-    role: "Founder, Aether Collective",
+      "I supervise 14 groups. ProjectPilot turned a chaotic semester into a calm weekly rhythm — I see who needs me before they ask.",
+    author: "Dr. Hira Khan",
+    role: "Associate Professor, Computer Science",
   },
   {
     quote:
-      "Working with them was like a masterclass in restraint and beauty. Nothing wasted, everything intentional.",
-    author: "Darius Vahn",
-    role: "CEO, Onyx Studios",
+      "The AI timeline gave our team a realistic plan in seconds. We stopped guessing and started shipping.",
+    author: "Ahmed R.",
+    role: "Final Year Student, Group 07",
   },
   {
     quote:
-      "They turned our chaotic vision into something poetic. The kind of work you stare at in silence.",
-    author: "Lena Moreau",
-    role: "Creative Director, Noctis",
+      "Recommendations actually catch slippage early. Two of my groups recovered a full milestone because of it.",
+    author: "Prof. Daniel Vega",
+    role: "FYP Coordinator, Engineering",
   },
 ];
 
@@ -39,8 +39,8 @@ const TestimonialsSection = () => {
             className="text-4xl sm:text-5xl md:text-6xl leading-[1.05] tracking-tight text-foreground max-w-3xl"
             style={{ fontFamily: "var(--font-display)" }}
           >
-            Words from those{" "}
-            <em className="not-italic text-muted-foreground">we've moved</em>
+            Trusted by faculty{" "}
+            <em className="not-italic text-muted-foreground">and their students</em>
           </h2>
         </motion.div>
 

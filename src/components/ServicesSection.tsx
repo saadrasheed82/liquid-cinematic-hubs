@@ -4,27 +4,27 @@ import { ArrowUpRight } from "lucide-react";
 const services = [
   {
     number: "01",
-    title: "Brand Identity",
+    title: "Group Tracking",
     description:
-      "Crafting visual systems that communicate purpose. From logos to full identity suites — built to last.",
+      "Manage every FYP group, member, and supervisor in one place. Roles, contacts, and progress at a glance.",
   },
   {
     number: "02",
-    title: "Digital Product",
+    title: "Milestone Boards",
     description:
-      "End-to-end product design and development. Interfaces that feel intuitive and look extraordinary.",
+      "Track proposals, mid-evaluations, and final defences. Mark tasks, add feedback, and approve deliverables.",
   },
   {
     number: "03",
-    title: "Creative Direction",
+    title: "AI Timeline Builder",
     description:
-      "Guiding the aesthetic vision across campaigns, content, and experiences. Cohesion through clarity.",
+      "Feed the project scope — the AI returns a week-by-week task plan tailored to deadlines and team size.",
   },
   {
     number: "04",
-    title: "Motion & Film",
+    title: "Smart Recommendations",
     description:
-      "Cinematic storytelling through motion design, animation, and video production. Movement with meaning.",
+      "Students receive AI nudges on what to prioritise, what's slipping, and how to finish on time.",
   },
 ];
 
@@ -40,14 +40,14 @@ const ServicesSection = () => {
           className="mb-20"
         >
           <p className="text-sm text-muted-foreground tracking-widest uppercase mb-4">
-            Services
+            Features
           </p>
           <h2
             className="text-4xl sm:text-5xl md:text-6xl leading-[1.05] tracking-tight text-foreground max-w-3xl"
             style={{ fontFamily: "var(--font-display)" }}
           >
-            What we do,{" "}
-            <em className="not-italic text-muted-foreground">with devotion</em>
+            Everything a supervisor needs,{" "}
+            <em className="not-italic text-muted-foreground">nothing they don't</em>
           </h2>
         </motion.div>
 
@@ -76,7 +76,6 @@ const ServicesSection = () => {
               <ArrowUpRight className="text-muted-foreground group-hover:text-foreground transition-colors ml-auto shrink-0 opacity-0 group-hover:opacity-100 hidden md:block" size={20} />
             </motion.div>
           ))}
-          {/* Final border */}
           <div className="border-t border-border" />
         </div>
       </div>

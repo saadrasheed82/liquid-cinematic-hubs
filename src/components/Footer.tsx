@@ -7,15 +7,15 @@ const Footer = () => {
             className="text-xl tracking-tight text-foreground"
             style={{ fontFamily: "var(--font-display)" }}
           >
-            Velorah<sup className="text-[8px]">®</sup>
+            ProjectPilot<sup className="text-[8px]">®</sup>
           </span>
           <span className="text-xs text-muted-foreground">
-            © {new Date().getFullYear()} All rights reserved
+            © {new Date().getFullYear()} FYP Tracker for Universities
           </span>
         </div>
 
         <div className="flex items-center gap-6">
-          {["Instagram", "Dribbble", "LinkedIn", "Twitter"].map((s) => (
+          {["Docs", "Privacy", "Support", "Contact"].map((s) => (
             <a
               key={s}
               href="#"
