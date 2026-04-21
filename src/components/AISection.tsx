@@ -26,7 +26,7 @@ const AISection = () => {
           transition={{ duration: 1 }}
           className="relative h-[420px] md:h-[520px] order-2 lg:order-1"
         >
-          <div className="absolute inset-0 rounded-full blur-3xl bg-sky-500/20 animate-pulse-slow" />
+          <div className="absolute inset-0 rounded-full blur-3xl bg-gradient-radial animate-pulse-slow" />
           <Suspense fallback={<div className="h-full w-full" />}>
             <Scene3D />
           </Suspense>
